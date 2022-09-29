@@ -1,0 +1,10 @@
+ sudo cat /usr/local/bin/wcs
+#!/bin/bash
+if
+read -s -t 60 -p "Password: " password
+then
+rdesktop 10.60.12.35 -u [username] -p $password
+fi
+
+
+Скрипт размещён в директории, добавленной в PATH.

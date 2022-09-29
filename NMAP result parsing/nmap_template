@@ -1,0 +1,6 @@
+﻿Value IP (\d+(\.\d+){3})
+Value State (\w+)
+
+Start
+ ^Nmap scan report for ${IP}
+ ^22/tcp ${State} -> Record
